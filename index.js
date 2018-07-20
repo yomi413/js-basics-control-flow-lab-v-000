@@ -6,7 +6,7 @@ function scuberGreetingForFeet(rideDistance) {
     message = 'This one is on me!';
   } else if (rideDistance > 2000 && rideDistance < 2500) {
     message = 'I will gladly take your thirty bucks.';
-  } else (rideDistance > 2500) {
+  } else if (rideDistance > 2500) {
     message = 'No can do.';
   }
   return message
@@ -15,6 +15,10 @@ function scuberGreetingForFeet(rideDistance) {
 function ternaryCheckCity(city) {
   let message;
 
+  if (city === 'NYC') {
+    message = 'Ok, sounds good.';
+  }
+  reture message
 }
 //
 // function switchOnCharmFromTip() {
