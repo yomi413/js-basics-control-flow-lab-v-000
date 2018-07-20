@@ -1,8 +1,8 @@
 // Write your code in this file!
 function scuberGreetingForFeet(rideDistance) {
-  let rideDistance = 199;
+  // let rideDistance = 199;
 
-  if  rideDistance <= 400 {
+  if  rideDistance === 400 {
     message = 'This one is on me!';
   } else if {
     rideDistance > 2000 {
