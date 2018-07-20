@@ -30,7 +30,7 @@ function switchOnCharmFromTip(tip) {
       break;
     case 'anything else':
       message = 'Bye.';
-      
+      break;
   }
   return message
 }
