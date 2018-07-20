@@ -1,7 +1,9 @@
 // Write your code in this file!
-function scuberGreetingForFeet(someValue) {
-  // if someValue <= 400;
-  //   'This one is on me!'
+function scuberGreetingForFeet() {
+  let ride, charge;
+  
+  if  ride <= 400;
+    charge = 'This one is on me!'
 }
 
 function ternaryCheckCity() {
