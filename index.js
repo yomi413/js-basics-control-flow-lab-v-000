@@ -3,13 +3,15 @@ function scuberGreetingForFeet(rideDistance) {
   let message
   if (rideDistance <= 400) {
     message = 'This one is on me!';
+  } else if (rideDistance > 2000) {
+    message = 'I will gladly take your thirty bucks.';
   }
   return message
 }
 
 // function scuberGreetingForFeet(rideDistance) {
 //   // let rideDistance = 199;
-// 
+//
 //   if  rideDistance === 199 {
 //     message = 'This one is on me!';
 //   } else if {
@@ -21,13 +23,13 @@ function scuberGreetingForFeet(rideDistance) {
 //       }
 //     }
 //   }
-// 
+//
 // }
-// 
+//
 // function ternaryCheckCity() {
-// 
+//
 // }
-// 
+//
 // function switchOnCharmFromTip() {
-// 
+//
 // }
