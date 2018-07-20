@@ -15,10 +15,12 @@ function scuberGreetingForFeet(rideDistance) {
 function ternaryCheckCity(city) {
   let message;
 
+  
+
   if (city === 'NYC') {
     message = 'Ok, sounds good.';
   }
-  reture message
+  return message
 }
 //
 // function switchOnCharmFromTip() {
