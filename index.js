@@ -13,9 +13,8 @@ function scuberGreetingForFeet(rideDistance) {
 }
 
 function ternaryCheckCity(city) {
-  let city = 'NYC';
-  city ? 'Ok, sounds good.' : 'No go.'
-
+  let message;
+  city === 'NYC' ? message = 'Ok, sounds good.' : message = 'No go.'
 }
 //
 // function switchOnCharmFromTip() {
