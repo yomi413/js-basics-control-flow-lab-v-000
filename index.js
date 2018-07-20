@@ -1,17 +1,19 @@
 // Write your code in this file!
-function scuberGreetingForFeet(199) {
+function scuberGreetingForFeet(rideDistance) {
   let rideDistance = 199;
-  let charge;
 
   if  rideDistance <= 400 {
-    charge = 'free'
-    message = 'This one is on me!'
+    message = 'This one is on me!';
   } else if {
     rideDistance > 2000 {
-      charge = '30 dollars'
+      message = 'I will gladly take your thirty bucks.';
+    } else {
+      rideDistance > 2500 {
+        message = 'No can do.';
+      }
     }
   }
-    
+
 }
 
 function ternaryCheckCity() {
